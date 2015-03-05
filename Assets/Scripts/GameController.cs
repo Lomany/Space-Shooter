@@ -11,10 +11,10 @@ public class GameController : MonoBehaviour
 
 	void Start()
 	{
-		StartCoroutine (SpawnWaves ());
+		StartCoroutine(SpawnWaves());
 	}
 
-	IEnumerable SpawnWaves()
+	IEnumerator SpawnWaves()
 	{
 		yield return new WaitForSeconds (startWait);
 		for (int i = 0; i < hazardCount; i++) 
