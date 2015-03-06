@@ -1,3 +1,3 @@
 # Space-Shooter
-Спайс Шутер
+
 Awesome...
